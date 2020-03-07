@@ -51,7 +51,7 @@ func adder() func(int) int {
 	}
 }
 
-// 函数adder返回了一个闭包，每个闭包绑带在其各自的sum变量上
+// 函数adder返回了一个闭包，每个闭包绑定在其各自的sum变量上
 func functionaValueFour() {
 	pos, neg := adder(), adder()
 	for i := 0; i < 10; i++ {

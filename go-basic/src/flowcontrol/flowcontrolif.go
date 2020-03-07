@@ -55,7 +55,7 @@ func switchOne() {
 }
 
 // switch的求值顺序
-// switch的case语句从上到下执行，知道匹配成功时停止
+// switch的case语句从上到下执行，直到匹配成功
 func switchTwo() {
 	today := time.Now().Weekday()
 	switch time.Sunday {

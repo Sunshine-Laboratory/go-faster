@@ -21,7 +21,16 @@ import "fmt"
 // 除非有特殊理由时，则使用固定大小或无符号的整数类型
 
 func main() {
-	fmt.Println()
+	// bool类型声明
+	boolAssign()
+	// int类型声明
+	intAssign()
+	// 零值
+	zeroAssign()
+	// 类型转换
+	cast()
+	// 类型推导
+	typeInference()
 }
 
 func boolAssign() {
